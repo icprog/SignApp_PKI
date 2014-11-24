@@ -1,0 +1,7 @@
+rm main
+lrz
+chmod +x main
+sha256sum main
+killall main
+./cleandatabase.sh
+./main&

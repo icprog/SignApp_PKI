@@ -1,0 +1,12 @@
+void DebugData(char *title,char *buf,int len);
+int BakPsam_PowerUp(void);
+int BakPsam_PowerDown(void);
+int BakPsam_PIN_Operator(char cMode);
+int BakPsam_Select_Aid(int nMode);
+int BakPsam_Update_Binary(char cP1,char cP2,const char *psData,int nDatalen);
+int BakPsam_Read_Binary(char cP1,char cP2,char* psResponse,int *pnDataLen,int nLen);
+int BakPsam_Read_Param(char* psResponse, int *pnDataLen,int nLen);
+int BakPsam_CommWrite(unsigned char *psSend, int nSendLen, unsigned char *psRecv, int *pnRecvLen);
+int BakPsam_ProICComm(const char cCLA,const char cINS,const char cP1,const char cP2,const char cLc,const char *psInBuf,char cLe,char* psOutBuf,int * pnOutDataLen);
+int BakPsam_ChkRsp(int nResponse);
+int BakPsam_UpdateParam(const char* sParam, int nLen);
