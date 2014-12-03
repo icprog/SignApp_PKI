@@ -54,9 +54,9 @@ ASSERT_FAIL	../src/PSam.c	6;"	d	file:
 ASSERT_HANGUP_FAIL	../inc/debug.h	69;"	d
 ASSERT_HANGUP_QUIT	../inc/debug.h	62;"	d
 ASSERT_QUIT	../inc/debug.h	56;"	d
-AUX1	../inc/PriKeyDownload.h	66;"	d
-AUX2	../inc/PriKeyDownload.h	67;"	d
-AUX3	../inc/PriKeyDownload.h	68;"	d
+AUX1	../inc/PriKeyDownload.h	65;"	d
+AUX2	../inc/PriKeyDownload.h	66;"	d
+AUX3	../inc/PriKeyDownload.h	67;"	d
 AtCmdNo	../env/NDK.h	/^		EM_WLM_CMD AtCmdNo;		\/**<ÃüÁîºÅ*\/$/;"	m	struct:NDK_WL_ATCMD	access:public
 AtCmdNo	../inc/NDK-bak.h	/^		EM_WLM_CMD AtCmdNo;	\/**<command No.*\/$/;"	m	struct:NDK_WL_ATCMD	access:public
 AuxConflictCheck	../inc/Pri_DownloadApi.h	/^int AuxConflictCheck(void);$/;"	p	signature:(void)
@@ -127,13 +127,13 @@ CARD_STRIPE_KEYIN_INSERTIC	../libapi/lposcard.h	/^	CARD_STRIPE_KEYIN_INSERTIC = 
 CARD_STRIPE_KEYIN_INSERTIC_RFCARD	../libapi/lposcard.h	/^	CARD_STRIPE_KEYIN_INSERTIC_RFCARD = CARD_STRIPE_KEYIN_INSERTIC|CARD_RFCARD,$/;"	e	enum:EM_CARDINPUTMODE
 CARD_STRIPE_KEYIN_RFCARD	../libapi/lposcard.h	/^	CARD_STRIPE_KEYIN_RFCARD = CARD_STRIPE_KEYIN|CARD_RFCARD,$/;"	e	enum:EM_CARDINPUTMODE
 CARD_STRIPE_RFCARD	../libapi/lposcard.h	/^	CARD_STRIPE_RFCARD = CARD_RFCARD|CARD_STRIPE,$/;"	e	enum:EM_CARDINPUTMODE
-CA_CONFIG_FILE	../inc/PriKeyDownload.h	117;"	d
-CA_DEFAULT_CONFIG_FILE	../inc/PriKeyDownload.h	116;"	d
-CA_FILE	../inc/PriKeyDownload.h	118;"	d
+CA_CONFIG_FILE	../inc/PriKeyDownload.h	116;"	d
+CA_DEFAULT_CONFIG_FILE	../inc/PriKeyDownload.h	115;"	d
+CA_FILE	../inc/PriKeyDownload.h	117;"	d
 CC	../build/Makefile	/^CC=$(CROSS_COMPILE)gcc$/;"	m
 CC	../src/Makefile	/^CC=$(CROSS_COMPILE)gcc$/;"	m
 CDMA_STATION	../env/NDK.h	/^	ST_CDMA_STATION_INFO CDMA_STATION;	\/**<CDMA»ùÕ¾*\/$/;"	m	union:__anon46	access:public
-CERT_FILE	../inc/PriKeyDownload.h	110;"	d
+CERT_FILE	../inc/PriKeyDownload.h	109;"	d
 CFG_BOOL	../inc/parsecfg.h	/^	CFG_BOOL,$/;"	e	enum:__anon155
 CFG_BOOL_ERROR	../inc/parsecfg.h	/^	CFG_BOOL_ERROR,$/;"	e	enum:__anon153
 CFG_CREATE_FAIL	../inc/parsecfg.h	/^	CFG_CREATE_FAIL,$/;"	e	enum:__anon153
@@ -231,10 +231,10 @@ CP	../src/Makefile	/^CP=cp$/;"	m
 CR	../inc/PriKeyDownload.h	34;"	d
 CROSS_COMPILE	../build/Makefile	/^CROSS_COMPILE=arm-unknown-linux-gnu-$/;"	m
 CROSS_COMPILE	../src/Makefile	/^CROSS_COMPILE=arm-unknown-linux-gnu-$/;"	m
-CSR_CONFIG_FILE	../inc/PriKeyDownload.h	112;"	d
-CSR_DEFAULT_CONFIG_FILE	../inc/PriKeyDownload.h	111;"	d
-CSR_FILE	../inc/PriKeyDownload.h	109;"	d
-CSR_SIGN_FILE	../inc/PriKeyDownload.h	114;"	d
+CSR_CONFIG_FILE	../inc/PriKeyDownload.h	111;"	d
+CSR_DEFAULT_CONFIG_FILE	../inc/PriKeyDownload.h	110;"	d
+CSR_FILE	../inc/PriKeyDownload.h	108;"	d
+CSR_SIGN_FILE	../inc/PriKeyDownload.h	113;"	d
 CallbackMock	../env/NDK.h	/^typedef int (*CallbackMock)(int, void *,int,void *,int *);$/;"	t
 CallbackMock	../inc/NDK-bak.h	/^typedef int (*CallbackMock)(int, void *,int,void **,int *);$/;"	t
 Chg_KEKBranch	../src/main.c	/^static int Chg_KEKBranch(int id)$/;"	f	file:	signature:(int id)
@@ -246,7 +246,7 @@ ConflictOperate	../src/Pri_DownloadApi.c	/^int ConflictOperate(void)$/;"	f	signa
 DEBUG	../inc/PriKeyDownload.h	9;"	d
 DEBUG	../inc/selftest.h	18;"	d
 DEFAULT	../inc/theme.h	/^    DEFAULT = 0,$/;"	e	enum:__anon164
-DEFAULT_PAGE_MAX	../src/PriKey_app.c	1302;"	d	file:
+DEFAULT_PAGE_MAX	../src/PriKey_app.c	1301;"	d	file:
 DEF_EDGE	../inc/theme.h	15;"	d
 DEF_EDGE	../inc/theme.h	89;"	d
 DES	../src/main.c	30;"	d	file:
@@ -287,42 +287,42 @@ DISPLAY_MODE_LEFT	../libapi/lui.h	/^	DISPLAY_MODE_LEFT=2,				\/**<¿¿×óÏÔÊ¾*\/$/;
 DISPLAY_MODE_NORMAL	../libapi/lui.h	/^	DISPLAY_MODE_NORMAL=0,			\/**<ÏÔÊ¾Ç°²»ÇåÐÐ*\/$/;"	e	enum:__anon182
 DISPLAY_MODE_RIGHT	../libapi/lui.h	/^	DISPLAY_MODE_RIGHT=8,				\/**<¾ÓÖÐÏÔÊ¾*\/$/;"	e	enum:__anon182
 DLE	../libapi/ltool.h	17;"	d
-DL_CMD_BATCH	../inc/PriKeyDownload.h	105;"	d
-DL_CMD_END	../inc/PriKeyDownload.h	106;"	d
-DL_CMD_ENQ	../inc/PriKeyDownload.h	81;"	d
+DL_CMD_BATCH	../inc/PriKeyDownload.h	104;"	d
+DL_CMD_END	../inc/PriKeyDownload.h	105;"	d
+DL_CMD_ENQ	../inc/PriKeyDownload.h	80;"	d
 DL_CMD_FILELEN	../inc/PriKeyDownload.h	156;"	d
 DL_CMD_FILENAME	../inc/PriKeyDownload.h	155;"	d
-DL_CMD_FILENAME	../inc/PriKeyDownload.h	85;"	d
+DL_CMD_FILENAME	../inc/PriKeyDownload.h	84;"	d
 DL_CMD_FILENAMELEN	../inc/PriKeyDownload.h	154;"	d
-DL_CMD_FILENAMELEN	../inc/PriKeyDownload.h	84;"	d
-DL_CMD_FILEOWER	../inc/PriKeyDownload.h	86;"	d
-DL_CMD_FILEVER	../inc/PriKeyDownload.h	89;"	d
-DL_CMD_KEEPOPER	../inc/PriKeyDownload.h	104;"	d
-DL_CMD_PASSWORD	../inc/PriKeyDownload.h	83;"	d
+DL_CMD_FILENAMELEN	../inc/PriKeyDownload.h	83;"	d
+DL_CMD_FILEOWER	../inc/PriKeyDownload.h	85;"	d
+DL_CMD_FILEVER	../inc/PriKeyDownload.h	88;"	d
+DL_CMD_KEEPOPER	../inc/PriKeyDownload.h	103;"	d
+DL_CMD_PASSWORD	../inc/PriKeyDownload.h	82;"	d
 DL_CMD_RECEIVE_OK	../inc/PriKeyDownload.h	157;"	d
-DL_CMD_RECEIVE_OK	../inc/PriKeyDownload.h	87;"	d
+DL_CMD_RECEIVE_OK	../inc/PriKeyDownload.h	86;"	d
 DL_CMD_RESEND	../inc/PriKeyDownload.h	158;"	d
-DL_CMD_RESEND	../inc/PriKeyDownload.h	88;"	d
+DL_CMD_RESEND	../inc/PriKeyDownload.h	87;"	d
 DL_CMD_SENDCERT	../inc/PriKeyDownload.h	159;"	d
-DL_CMD_TYPE	../inc/PriKeyDownload.h	82;"	d
-DL_ENQ_TYPE	../inc/PriKeyDownload.h	92;"	d
-DL_PROC_AUTH	../inc/PriKeyDownload.h	100;"	d
-DL_PROC_DEL	../inc/PriKeyDownload.h	95;"	d
-DL_PROC_DOWN	../inc/PriKeyDownload.h	94;"	d
-DL_PROC_GETINFO	../inc/PriKeyDownload.h	101;"	d
+DL_CMD_TYPE	../inc/PriKeyDownload.h	81;"	d
+DL_ENQ_TYPE	../inc/PriKeyDownload.h	91;"	d
+DL_PROC_AUTH	../inc/PriKeyDownload.h	99;"	d
+DL_PROC_DEL	../inc/PriKeyDownload.h	94;"	d
+DL_PROC_DOWN	../inc/PriKeyDownload.h	93;"	d
+DL_PROC_GETINFO	../inc/PriKeyDownload.h	100;"	d
 DL_PROC_KEY_LOAD	../inc/PriKeyDownload.h	166;"	d
 DL_PROC_MUTUAL_AUTH	../inc/PriKeyDownload.h	167;"	d
-DL_PROC_PRIKEY	../inc/PriKeyDownload.h	96;"	d
-DL_PROC_PUBKEY	../inc/PriKeyDownload.h	97;"	d
+DL_PROC_PRIKEY	../inc/PriKeyDownload.h	95;"	d
+DL_PROC_PUBKEY	../inc/PriKeyDownload.h	96;"	d
 DL_PROC_SET_DATETIME_HARD	../inc/PriKeyDownload.h	170;"	d
 DL_PROC_SET_DATETIME_SOFT	../inc/PriKeyDownload.h	169;"	d
 DL_PROC_SET_OWNER	../inc/PriKeyDownload.h	168;"	d
-DL_PROC_UPT	../inc/PriKeyDownload.h	93;"	d
+DL_PROC_UPT	../inc/PriKeyDownload.h	92;"	d
 DOT	../inc/PriKeyDownload.h	38;"	d
 DOWN	../inc/PriKeyDownload.h	29;"	d
-DOWNLOAD_CFG_FILE	../src/Pri_DownloadTool.c	517;"	d	file:
+DOWNLOAD_CFG_FILE	../src/Pri_DownloadTool.c	518;"	d	file:
 DOWNLOAD_DIR	../src/PriKey_app.c	17;"	d	file:
-DOWNLOAD_PORT	../inc/PriKeyDownload.h	70;"	d
+DOWNLOAD_PORT	../inc/PriKeyDownload.h	69;"	d
 DRAG_LENG	../inc/theme.h	145;"	d
 DRAG_LENG	../inc/theme.h	73;"	d
 DUKPT_KSN_LEN	../inc/tr31_format.h	38;"	d
@@ -486,7 +486,7 @@ ENM_READERSHOW	../libapi/lposcard.h	/^}ENM_READERSHOW;$/;"	t	typeref:enum:__anon
 ENM_RFIDCARDTYPE	../libapi/lposcard.h	/^}ENM_RFIDCARDTYPE;			\/**<·Ç½Ó¿¨ÀàÐÍ±ê¼Ç*\/$/;"	t	typeref:enum:__anon173
 ENM_RFIDM1KEYMODE	../libapi/lposcard.h	/^}ENM_RFIDM1KEYMODE;		\/**<M1¿¨ KeyÀàÐÍ*\/$/;"	t	typeref:enum:__anon174
 ENM_RFREADERTYPE	../libapi/lposcard.h	/^}ENM_RFREADERTYPE;			\/**<·Ç½Ó¶Á¿¨Æ÷ÀàÐÍ*\/$/;"	t	typeref:enum:__anon170
-ENQ	../inc/PriKeyDownload.h	78;"	d
+ENQ	../inc/PriKeyDownload.h	77;"	d
 ENQ	../libapi/ltool.h	15;"	d
 ENTER	../inc/PriKeyDownload.h	35;"	d
 EOT	../libapi/ltool.h	14;"	d
@@ -524,7 +524,6 @@ FILE_OPER	../inc/oper.h	25;"	d
 FIRST_FILE	../src/PSam.c	18;"	d	file:
 FIVE	../inc/PriKeyDownload.h	45;"	d
 FL	../inc/PriKeyDownload.h	153;"	d
-FL	../inc/PriKeyDownload.h	64;"	d
 FONTCOLOR_BG_REVERSE	../env/NDK.h	/^	FONTCOLOR_BG_REVERSE,				\/**<×ÖÌå·´ÏòÏÔÊ¾Ê±±³¾°ÑÕÉ«*\/$/;"	e	enum:__anon5
 FONTCOLOR_BG_REVERSE	../inc/NDK-bak.h	/^	FONTCOLOR_BG_REVERSE,				\/**<background color when font  reversely displayed*\/$/;"	e	enum:__anon92
 FONTCOLOR_NORMAL	../env/NDK.h	/^	FONTCOLOR_NORMAL,				\/**<×ÖÌåÕý³£ÏÔÊ¾Ê±×ÖÌåÑÕÉ«*\/$/;"	e	enum:__anon5
@@ -911,11 +910,11 @@ MAINTK3	../libapi/lposcard.h	/^	MAINTK3  = (1<<2),  			   				\/**<Èý´ÅµÀÎªÓÅÏÈµ
 MANAGEROPER	../inc/oper.h	17;"	d
 MANAGERPWD	../src/oper.c	12;"	d	file:
 MANAGERPWDLEN	../src/oper.c	17;"	d	file:
-MAXSENDLEN	../inc/PriKeyDownload.h	126;"	d
+MAXSENDLEN	../inc/PriKeyDownload.h	125;"	d
 MAX_ERR_BUF_LEN	../libapi/ltool.h	33;"	d
 MAX_ERR_NUM	../libapi/ltool.h	34;"	d
 MAX_FIELD_LEN	../libapi/ltool.h	702;"	d
-MAX_MENU_NAME	../inc/PriKeyDownload.h	77;"	d
+MAX_MENU_NAME	../inc/PriKeyDownload.h	76;"	d
 MAX_MENU_NAME	../inc/selftest.h	16;"	d
 MAX_MSG_LEN	../libapi/ltool.h	703;"	d
 MAX_NN_DIGIT	../inc/emvnn.h	34;"	d
@@ -2125,7 +2124,7 @@ NDK_WlSelSIM	../env/NDK.h	/^int NDK_WlSelSIM(uchar ucSimNo);$/;"	p	signature:(uc
 NDK_WlSelSIM	../inc/NDK-bak.h	/^int NDK_WlSelSIM(uchar ucSimNo);$/;"	p	signature:(uchar ucSimNo)
 NDK_WlSendATCmd	../env/NDK.h	/^int NDK_WlSendATCmd(const ST_ATCMD_PACK *pstATCmdPack,char *pszOutput,uint unMaxLen,uint unTimeout,EM_WLM_STATUS *pemStatus);$/;"	p	signature:(const ST_ATCMD_PACK *pstATCmdPack,char *pszOutput,uint unMaxLen,uint unTimeout,EM_WLM_STATUS *pemStatus)
 NDK_WlSendATCmd	../inc/NDK-bak.h	/^int NDK_WlSendATCmd(const ST_ATCMD_PACK *pstATCmdPack,char *pszOutput,uint unMaxlen,uint unTimeout,EM_WLM_STATUS *pemStatus);$/;"	p	signature:(const ST_ATCMD_PACK *pstATCmdPack,char *pszOutput,uint unMaxlen,uint unTimeout,EM_WLM_STATUS *pemStatus)
-NEW_CERT_FILE	../inc/PriKeyDownload.h	115;"	d
+NEW_CERT_FILE	../inc/PriKeyDownload.h	114;"	d
 NEW_ENQ	../inc/PriKeyDownload.h	161;"	d
 NEW_ENQ_ACK	../inc/PriKeyDownload.h	162;"	d
 NINE	../inc/PriKeyDownload.h	49;"	d
@@ -2210,7 +2209,7 @@ NN_Zero	../inc/emvnn.h	/^int NN_Zero PROTO_LIST ((NN_DIGIT *, unsigned int));$/;
 NN_Zero	../src/emvnn.c	/^int NN_Zero (a, digits)$/;"	f
 NO	../libapi/ltool.h	/^	NO   = '0',$/;"	e	enum:__anon178
 NOMAINTK	../libapi/lposcard.h	/^	NOMAINTK = 0x00,							\/**<Ã»ÓÐÓÅÏÈµÀ£¬Ö»ÒªÓÐ1¸ö´ÅµÀ¶Ô 	*\/$/;"	e	enum:EM_MAINTK
-NONEENQ	../inc/PriKeyDownload.h	128;"	d
+NONEENQ	../inc/PriKeyDownload.h	127;"	d
 NORMALOPER	../inc/oper.h	18;"	d
 NORMALOPERPWD	../src/oper.c	15;"	d	file:
 NORMALPWDLEN	../src/oper.c	20;"	d	file:
@@ -2251,8 +2250,8 @@ PDEBUG	../inc/selftest.h	20;"	d
 PDEBUG	../inc/selftest.h	22;"	d
 PIC_H	../inc/selftest.h	66;"	d
 POINTER	../inc/emvrsa.h	/^typedef unsigned char *POINTER;$/;"	t
-PORT_AUX	../inc/PriKeyDownload.h	73;"	d
-PORT_NONE	../inc/PriKeyDownload.h	72;"	d
+PORT_AUX	../inc/PriKeyDownload.h	72;"	d
+PORT_NONE	../inc/PriKeyDownload.h	71;"	d
 PORT_NUM_BT	../env/NDK.h	/^    PORT_NUM_BT = 11   \/**<BT Ö÷Éè±¸´®¿Ú*\/$/;"	e	enum:__anon40
 PORT_NUM_COM1	../env/NDK.h	/^    PORT_NUM_COM1 = 0,	\/**<´®¿Ú1*\/$/;"	e	enum:__anon40
 PORT_NUM_COM1	../inc/NDK-bak.h	/^    PORT_NUM_COM1 = 0,	\/**<serial port 1*\/$/;"	e	enum:__anon123
@@ -2274,7 +2273,7 @@ PORT_NUM_WIFI	../env/NDK.h	/^    PORT_NUM_WIFI = 7,	\/**<WifiÄ£¿é*\/$/;"	e	enum:
 PORT_NUM_WIFI	../inc/NDK-bak.h	/^    PORT_NUM_WIFI = 7,	\/**<Wifi module*\/$/;"	e	enum:__anon123
 PORT_NUM_WIRELESS	../env/NDK.h	/^    PORT_NUM_WIRELESS = 2,	\/**<ÎÞÏßÄ£¿é*\/$/;"	e	enum:__anon40
 PORT_NUM_WIRELESS	../inc/NDK-bak.h	/^    PORT_NUM_WIRELESS = 2,	\/**<wireless module*\/$/;"	e	enum:__anon123
-PORT_USB	../inc/PriKeyDownload.h	75;"	d
+PORT_USB	../inc/PriKeyDownload.h	74;"	d
 POS_CENTER	../env/widget.h	/^	POS_CENTER    = 0x00000022,$/;"	e	enum:__anon79
 POS_DOWN	../env/widget.h	/^	POS_DOWN      = 0x00000010,$/;"	e	enum:__anon79
 POS_HCENTER	../env/widget.h	/^	POS_HCENTER   = 0x00000002,$/;"	e	enum:__anon79
@@ -2302,9 +2301,9 @@ PRESSED	../inc/theme.h	/^    PRESSED = 2,$/;"	e	enum:__anon164
 PRINTER	../inc/NDK-bak.h	/^    PRINTER,		\/**<printer*\/$/;"	e	enum:__anon134
 PRINT_LOG	../inc/debug.h	26;"	d
 PRINT_LOG	../inc/debug.h	30;"	d
-PRIVATE_DEC_TMP_FILE_IN	../src/PriKey_app.c	1633;"	d	file:
-PRIVATE_DEC_TMP_FILE_OUT	../src/PriKey_app.c	1634;"	d	file:
-PRI_KEY_FILE	../inc/PriKeyDownload.h	113;"	d
+PRIVATE_DEC_TMP_FILE_IN	../src/PriKey_app.c	1632;"	d	file:
+PRIVATE_DEC_TMP_FILE_OUT	../src/PriKey_app.c	1633;"	d	file:
+PRI_KEY_FILE	../inc/PriKeyDownload.h	112;"	d
 PRN_CHANELNUM_TEMPERATURE	../env/NDK.h	/^	PRN_CHANELNUM_TEMPERATURE	\/**<ÎÂ¶È²ÉÑù*\/$/;"	e	enum:__anon15
 PRN_CHANELNUM_VOLTAGE	../env/NDK.h	/^	PRN_CHANELNUM_VOLTAGE, 		\/**<µçÑ¹²ÉÑù*\/$/;"	e	enum:__anon15
 PRN_FEEDPAPER_AFTER	../env/NDK.h	/^    PRN_FEEDPAPER_AFTER             \/**<µ¥Ò³´òÓ¡Íê³Éºó½øÖ½*\/$/;"	e	enum:__anon21
@@ -2705,7 +2704,7 @@ RFID_RC531	../inc/NDK-bak.h	/^	RFID_RC531=			0x01,$/;"	e	enum:__anon129
 RIGHT	../inc/PriKeyDownload.h	27;"	d
 RM	../build/Makefile	/^RM=rm$/;"	m
 RM	../src/Makefile	/^RM=rm$/;"	m
-RMFL	../inc/PriKeyDownload.h	65;"	d
+RMFL	../inc/PriKeyDownload.h	64;"	d
 RSAPublicBlock	../src/emvrsa.c	/^static int RSAPublicBlock (unsigned char *output, unsigned int * outputLen,$/;"	f	file:	signature:(unsigned char *output, unsigned int * outputLen, unsigned char * input, unsigned int inputLen,R_RSA_PRIVATE_KEY *publicKey)
 RSAPublicBlock	../src/emvrsa.c	/^static int RSAPublicBlock PROTO_LIST$/;"	p	file:	signature:(unsigned char *, unsigned int *, unsigned char *, unsigned int, R_RSA_PRIVATE_KEY *)
 RSAPublicDecrypt	../inc/emvrsa.h	/^int RSAPublicDecrypt PROTO_LIST$/;"	p	signature:(unsigned char *, unsigned int *, unsigned char *, unsigned int, R_RSA_PRIVATE_KEY *)
@@ -3332,7 +3331,7 @@ UDISK	../inc/NDK-bak.h	/^	UDISK = 0,    \/**<Select U Disk*\/$/;"	e	enum:__anon1
 UINT2	../inc/emvrsa.h	/^typedef unsigned short int UINT2;$/;"	t
 UINT4	../inc/emvrsa.h	/^typedef unsigned long int UINT4;$/;"	t
 UP	../inc/PriKeyDownload.h	28;"	d
-USB_DISK	../inc/PriKeyDownload.h	76;"	d
+USB_DISK	../inc/PriKeyDownload.h	75;"	d
 USE_CMAC_TDEA	../inc/tr31_format.h	26;"	d
 VERSTR_GZYL	../inc/posdef.h	61;"	d
 VOICE_CTRL_MUTE	../env/NDK.h	/^        VOICE_CTRL_MUTE = 4,    \/**<´ò¿ª¾²Òô*\/$/;"	e	enum:__anon78
@@ -3451,31 +3450,31 @@ _	../inc/intl.h	37;"	d
 _APIINC_H_	../inc/apiinc.h	9;"	d
 _APPINC_H_	../inc/appinc.h	10;"	d
 _DEBUG_H_	../inc/debug.h	9;"	d
-_FCHARFOR	../inc/PriKeyDownload.h	143;"	d
-_FCHARRET	../inc/PriKeyDownload.h	144;"	d
-_LCHARFOR	../inc/PriKeyDownload.h	141;"	d
-_LCHARRET	../inc/PriKeyDownload.h	142;"	d
+_FCHARFOR	../inc/PriKeyDownload.h	142;"	d
+_FCHARRET	../inc/PriKeyDownload.h	143;"	d
+_LCHARFOR	../inc/PriKeyDownload.h	140;"	d
+_LCHARRET	../inc/PriKeyDownload.h	141;"	d
 _LIBAPIINC_H_	../libapi/libapiinc.h	9;"	d
 _LPOSCARD_H	../libapi/lposcard.h	12;"	d
 _LTOOLS_H_	../libapi/ltool.h	2;"	d
 _LUI_H_	../libapi/lui.h	2;"	d
-_NCHARFOR	../inc/PriKeyDownload.h	133;"	d
-_NCHARRET	../inc/PriKeyDownload.h	134;"	d
-_NEWENQRET	../inc/PriKeyDownload.h	149;"	d
+_NCHARFOR	../inc/PriKeyDownload.h	132;"	d
+_NCHARRET	../inc/PriKeyDownload.h	133;"	d
+_NEWENQRET	../inc/PriKeyDownload.h	148;"	d
 _NN_H_	../inc/emvnn.h	9;"	d
 _OPER_H_	../inc/oper.h	10;"	d
-_PCHARFOR	../inc/PriKeyDownload.h	131;"	d
-_PCHARRET	../inc/PriKeyDownload.h	132;"	d
+_PCHARFOR	../inc/PriKeyDownload.h	130;"	d
+_PCHARRET	../inc/PriKeyDownload.h	131;"	d
 _POSDEF_H_	../inc/posdef.h	2;"	d
-_RCHARFOR	../inc/PriKeyDownload.h	135;"	d
-_RCHARRET	../inc/PriKeyDownload.h	136;"	d
+_RCHARFOR	../inc/PriKeyDownload.h	134;"	d
+_RCHARRET	../inc/PriKeyDownload.h	135;"	d
 _RSA_H_	../inc/emvrsa.h	2;"	d
-_SCHARFOR	../inc/PriKeyDownload.h	137;"	d
-_SCHARRET	../inc/PriKeyDownload.h	138;"	d
-_TCHARFOR	../inc/PriKeyDownload.h	129;"	d
-_TCHARRET	../inc/PriKeyDownload.h	130;"	d
-_TIMEFOR	../inc/PriKeyDownload.h	145;"	d
-_TIMERET	../inc/PriKeyDownload.h	146;"	d
+_SCHARFOR	../inc/PriKeyDownload.h	136;"	d
+_SCHARRET	../inc/PriKeyDownload.h	137;"	d
+_TCHARFOR	../inc/PriKeyDownload.h	128;"	d
+_TCHARRET	../inc/PriKeyDownload.h	129;"	d
+_TIMEFOR	../inc/PriKeyDownload.h	144;"	d
+_TIMERET	../inc/PriKeyDownload.h	145;"	d
 _TR31_FORMAT_H_	../inc/tr31_format.h	2;"	d
 __DownLoadWANG_H__	../inc/Pri_DownloadTool.h	2;"	d
 __DownLoad_H__	../inc/PriKeyDownload.h	3;"	d
@@ -3767,7 +3766,7 @@ __st_PADDATA::unPadX	../env/NDK.h	/^        uint unPadX;    \/**<ºá×ø±ê*\/$/;"	m
 __st_PADDATA::unPadY	../env/NDK.h	/^        uint unPadY;    \/**<×Ý×ø±ê*\/$/;"	m	struct:__st_PADDATA	access:public
 __unused4	../src/PriKey_app.c	/^	unsigned int	__unused4;$/;"	m	struct:stat	file:	access:public
 __unused5	../src/PriKey_app.c	/^	unsigned int	__unused5;$/;"	m	struct:stat	file:	access:public
-_sumCHARFOR	../inc/PriKeyDownload.h	139;"	d
+_sumCHARFOR	../inc/PriKeyDownload.h	138;"	d
 action	../libapi/lui.h	/^	int	(*action)(void);				\/**<ÏîÄ¿Ö´ÐÐº¯ÊýµÄÖ¸Õë*\/$/;"	m	struct:__anon190	access:public
 adminOperate	../src/main.c	/^static int adminOperate()$/;"	f	file:
 adminOperate	../src/main.c	/^static int adminOperate(void);$/;"	p	file:	signature:(void)
@@ -4172,7 +4171,7 @@ exponent	../inc/PriKeyDownload.h	/^    unsigned char exponent[MAX_RSA_MODULUS_LE
 export	../inc/tr31_format.h	/^        uint8_t export;         \/* Defines the protected key's exportablility *\/$/;"	m	struct:__anon166	access:public
 export	../inc/tr31_format.h	/^    uint8_t export;         	\/* Defines the protected key's exportablility *\/$/;"	m	struct:__anon167	access:public
 fMAX_FRAM_SIZE	../inc/posdef.h	50;"	d
-fclose	../src/Pri_DownloadTool.c	522;"	d	file:
+fclose	../src/Pri_DownloadTool.c	523;"	d	file:
 fetchVarFromCfgFile	../inc/parsecfg.h	/^int fetchVarFromCfgFile(const char *file, char *parameter_name, void *result_value, cfgValueType value_type, cfgFileType file_type, int section_num, const char *section_name);$/;"	p	signature:(const char *file, char *parameter_name, void *result_value, cfgValueType value_type, cfgFileType file_type, int section_num, const char *section_name)
 fetchVarFromCfgFile	../src/parsecfg.c	/^int fetchVarFromCfgFile(const char *file, char *parameter_name, void *result_value, cfgValueType value_type, cfgFileType file_type, int section_num, const char *section_name)$/;"	f	signature:(const char *file, char *parameter_name, void *result_value, cfgValueType value_type, cfgFileType file_type, int section_num, const char *section_name)
 fetch_ini	../src/parsecfg.c	/^static int fetch_ini(const char *file, FILE *fp, char *parameter_name, void *result_value, cfgValueType value_type, int section_num, const char *section_name)$/;"	f	file:	signature:(const char *file, FILE *fp, char *parameter_name, void *result_value, cfgValueType value_type, int section_num, const char *section_name)
@@ -4190,7 +4189,7 @@ filenames	../libapi/libconfig.h	/^  const char **filenames;$/;"	m	struct:config_
 flags	../inc/libconfig.h	/^  unsigned short flags;$/;"	m	struct:config_t	access:public
 flags	../libapi/libconfig.h	/^  unsigned short flags;$/;"	m	struct:config_t	access:public
 fld	../libapi/ltool.h	/^    STISO_FIELD		fld[256];$/;"	m	struct:STISODataStru	access:public
-fopen	../src/Pri_DownloadTool.c	519;"	d	file:
+fopen	../src/Pri_DownloadTool.c	520;"	d	file:
 format	../env/NDK.h	/^	unsigned int format;		\/**< À©Õ¹ÃÜÔ¿°²×°°ü¸ñÊ½,Ä¿Ç°½öÖ§³ÖTR-31¸ñÊ½ SEC_KEYBLOCK_FMT_TR31*\/$/;"	m	struct:__anon35	access:public
 format	../inc/NDK-bak.h	/^	unsigned int format;		\/**< Extend key installation package format, currently only support SEC_KEYBLOCK_FMT_TR31 TR - 31 format*\/$/;"	m	struct:__anon118	access:public
 format	../inc/libconfig.h	/^  short format;$/;"	m	struct:config_setting_t	access:public
@@ -4645,7 +4644,6 @@ tagRecFile::unIndex1Start	../libapi/ltool.h	/^	unsigned int unIndex1Start;		\/**
 tagRecFile::unIndex2Len	../libapi/ltool.h	/^	unsigned int unIndex2Len;		\/**<Ë÷Òý×Ö¶Î2µÄ³¤¶È    *\/$/;"	m	struct:tagRecFile	access:public
 tagRecFile::unIndex2Start	../libapi/ltool.h	/^	unsigned int unIndex2Start; 	\/**<Ë÷Òý×Ö¶Î2µÄÆðÊ¼Î»ÖÃ*\/$/;"	m	struct:tagRecFile	access:public
 tagRecFile::unMaxOneRecLen	../libapi/ltool.h	/^	unsigned int unMaxOneRecLen;	\/**<×î´óµÄµ¥Ìõ¼ÇÂ¼³¤¶È *\/  $/;"	m	struct:tagRecFile	access:public
-test_send_csr	../src/genreq.c	/^int test_send_csr(void)$/;"	f	signature:(void)
 text_attach_exit	../env/widget.h	/^void text_attach_exit(widget_t * text, void (*text_exit)(void* data,int yoffset));$/;"	p	signature:(widget_t * text, void (*text_exit)(void* data,int yoffset))
 text_attach_key	../env/widget.h	/^void text_attach_key(widget_t * text,int pageup_key,int pagedown_key,int exit_key);$/;"	p	signature:(widget_t * text,int pageup_key,int pagedown_key,int exit_key)
 text_attach_onclick	../env/widget.h	/^void text_attach_onclick(widget_t * text,void (*text_onclick)(void));$/;"	p	signature:(widget_t * text,void (*text_onclick)(void))
