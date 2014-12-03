@@ -31,6 +31,7 @@
 #add by wang
 *.d
 *.dep
+*.deps
 *.svn
 *.IAB
 *.IAD
